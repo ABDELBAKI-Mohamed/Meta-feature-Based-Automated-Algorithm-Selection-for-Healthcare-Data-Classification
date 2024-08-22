@@ -1,0 +1,58 @@
+[
+  {
+    "accuracy": 0.4767058823529412,
+    "best_params": {
+      "n_estimators": 180,
+      "learning_rate": 0.004587018763125183
+    },
+    "elapsed_time": 176,
+    "algorithm": "ADA"
+  },
+  {
+    "accuracy": 0.551843137254902,
+    "best_params": {
+      "n_estimators": 500,
+      "learning_rate": 0.009349794208119945,
+      "max_depth": 13,
+      "min_samples_split": 0.9882852004671058,
+      "min_samples_leaf": 0.46359197513759065
+    },
+    "elapsed_time": 616,
+    "algorithm": "GBM"
+  },
+  {
+    "accuracy": 0.49592156862745096,
+    "best_params": {
+      "n_neighbors": 5,
+      "weights": "uniform",
+      "p": 1
+    },
+    "elapsed_time": 5,
+    "algorithm": "KNN"
+  },
+  {
+    "accuracy": 0.3811764705882353,
+    "best_params": {
+      "penalty": "l2",
+      "C": 5.793031523457635,
+      "max_iter": 557
+    },
+    "elapsed_time": 139,
+    "algorithm": "LR"
+  },
+  {
+    "accuracy": 0.23027450980392156,
+    "best_params": "does not use hyperparameters",
+    "elapsed_time": 0,
+    "algorithm": "NB"
+  },
+  {
+    "accuracy": 0.5315294117647059,
+    "best_params": {
+      "n_estimators": 50,
+      "max_depth": 6
+    },
+    "elapsed_time": 21,
+    "algorithm": "RF"
+  }
+]

@@ -1,0 +1,252 @@
+[
+    {
+        "id":0,
+        "name":"covid19",
+        "sources":["https://www.kaggle.com/datasets/meirnizri/covid19-dataset","https://datos.gob.mx/busca/dataset/informacion-referente-a-casos-covid-19-en-mexico"],
+        "edits":"replaced column DATE_DIED with DEATH so it's 0 if the value is '9999-99-99' and 1 if not",
+        "file":"covid19_mexico.csv",
+        "target":"DEATH"
+    },
+    {
+        "id":1,
+        "name":"diabetes",
+        "sources":["https://www.kaggle.com/datasets/whenamancodes/predict-diabities"],
+        "edits":"none",
+        "file":"diabetes.csv",
+        "target":"Outcome"
+    },
+    {
+        "id":2,
+        "name":"symptoms",
+        "sources":["https://www.kaggle.com/datasets/itachi9604/disease-symptom-description-dataset/code?select=dataset.csv"],
+        "edits":"everything done in this application right before the prediction: https://www.kaggle.com/code/krishnavaghosh/desease-symptom-prediction-using-randomfores-98",
+        "file":"symptoms.csv",
+        "target":"Disease",
+        "valid":"X"
+    },
+    {
+        "id":3,
+        "name":"stroke",
+        "sources":["https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset"],
+        "edits":"everything done in this application right before the prediction: https://www.kaggle.com/code/ilyassbougaa/eda-random-forest-classifier-stroke-data#EDA-and-Visualizations",
+        "file":"stroke-data.csv",
+        "target":"stroke"
+    },
+    {
+        "id":4,
+        "name":"hepatitisC",
+        "sources":["https://www.kaggle.com/datasets/fedesoriano/hepatitis-c-dataset"],
+        "edits":"everything done in this application right before the prediction: https://www.kaggle.com/code/abhijeetsinghmeena/ensemble-of-3-models-accuracy-95",
+        "file":"hepatitisC.csv",
+        "target":"Target"
+    },
+    {
+        "id":5,
+        "name":"cirrhosis",
+        "sources":["https://www.kaggle.com/datasets/fedesoriano/cirrhosis-prediction-dataset"],
+        "edits":"everything done in this application right before the prediction AND dropped the ID column: https://www.kaggle.com/code/mishadratovany/cirrhosis-prediction",
+        "file":"cirrhosis.csv",
+        "target":"Stage"
+    },
+    {
+        "id":6,
+        "name":"heartDisease",
+        "sources":["https://www.kaggle.com/datasets/fedesoriano/heart-failure-prediction"],
+        "edits":"everything done in this application right before the prediction EXCEPT scaling: https://www.kaggle.com/code/vishweshsalodkar/heart-disease-prediction-using-randomforest-88-acc",
+        "file":"heart-disease.csv",
+        "target":"HeartDisease"
+    },
+    {
+        "id":7,
+        "name":"heartFailure",
+        "sources":["https://www.kaggle.com/datasets/andrewmvd/heart-failure-clinical-data"],
+        "edits":"No edits",
+        "file":"heart-failure.csv",
+        "target":"DEATH_EVENT"
+    },
+    {
+        "id":8,
+        "name":"cardioDisease",
+        "sources":["https://www.kaggle.com/datasets/sulianova/cardiovascular-disease-dataset"],
+        "edits":"edits as per https://www.kaggle.com/code/aldmitriev/data-analysis-cardio-prediction",
+        "file":"cardio-disease.csv",
+        "target":"cardio",
+        "valid":"X"
+    },
+    {
+        "id":9,
+        "name":"indianLiver",
+        "sources":["https://www.kaggle.com/datasets/uciml/indian-liver-patient-records"],
+        "edits":"edits as per https://www.kaggle.com/code/hanpat99/indian-liver-patients-classification",
+        "file":"indian-liver.csv",
+        "target":"liver_disease_YN"
+    },
+    {
+        "id":10,
+        "name":"heartCleaveland",
+        "sources":["https://www.kaggle.com/datasets/cherngs/heart-disease-cleveland-uci"],
+        "edits":"removed outliers as per https://www.kaggle.com/code/neilanshchauhan/heart-disease-prediction-using-svm-logregression",
+        "file":"heart-cleveland.csv",
+        "target":"condition",
+        "valid":"repeated"
+    },
+    {
+        "id":11,
+        "name":"wisconsin",
+        "sources":["https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data"],
+        "edits":"edits as per EXCEPT standardizing :  https://www.kaggle.com/code/iamishu/breast-cancer-prediction",
+        "file":"wisconsin.csv",
+        "target":"diagnosis"
+    },
+    {
+        "id":12,
+        "name":"hypothyroid",
+        "sources":["https://www.kaggle.com/datasets/yasserhessein/thyroid-disease-data-set"],
+        "edits":"edits as per EXCEPT standardizing :  https://www.kaggle.com/code/vuppalaadithyasairam/98-test-accuracy-thyroid-prediction",
+        "file":"hypothyroid.csv",
+        "target":"binaryClass"
+    },
+    {
+        "id":13,
+        "name":"appendicitis",
+        "sources":["https://www.kaggle.com/datasets/timrie/appendicitis"],
+        "edits":"no edits",
+        "file":"appendicitis.csv",
+        "target":" Class"
+    },
+    {
+        "id":14,
+        "name":"framingham",
+        "sources":["https://www.kaggle.com/datasets/dileep070/heart-disease-prediction-using-logistic-regression"],
+        "edits":"no edits",
+        "file":"framingham.csv",
+        "target":"TenYearCHD"
+    },
+    {
+        "id":15,
+        "name":"lowerback",
+        "sources":["https://www.kaggle.com/datasets/sammy123/lower-back-pain-symptoms-dataset"],
+        "edits":"edits as per: https://www.kaggle.com/code/shtrausslearning/lower-back-pain-symptoms",
+        "file":"lowerback.csv",
+        "target":"normality"
+    },
+    {
+        "id":16,
+        "name":"breastCancer",
+        "sources":["https://www.kaggle.com/datasets/yasserh/breast-cancer-dataset"],
+        "edits":"edits as per: https://www.kaggle.com/code/ajieraflipamungkas/breast-cancer-svm",
+        "file":"breast-cancer.csv",
+        "target":"diagnosis",
+        "valid":"repeated"
+    },
+    {
+        "id":17,
+        "name":"heart2020",
+        "sources":["https://www.kaggle.com/datasets/kamilpytlak/personal-key-indicators-of-heart-disease"],
+        "edits":"edits as per: https://www.kaggle.com/code/hillalhariyono/heart-disease-classification",
+        "file":"heart2020.csv",
+        "target":"HeartDisease"
+    },
+    {
+        "id":18,
+        "name":"autism",
+        "sources":["https://www.kaggle.com/datasets/faizunnabi/autism-screening"],
+        "edits":"edits as per: https://www.kaggle.com/code/suwdab/autism-screening-classification",
+        "file":"autism.csv",
+        "target":"Detected_YES",
+        "valid":"?"
+    },
+    {
+        "id":19,
+        "name":"obesity",
+        "sources":["https://www.kaggle.com/datasets/sujithmandala/obesity-classification-dataset"],
+        "edits":"edits as per: https://www.kaggle.com/code/nharshavardhana/obesity-classification-eda-rf-100-accuracy",
+        "file":"obesity.csv",
+        "target":"Label"
+    },
+    {
+        "id":20,
+        "name":"heartBeat",
+        "sources":["https://www.kaggle.com/datasets/shayanfazeli/heartbeat"],
+        "edits":"edits as per AND added labels to columns: https://www.kaggle.com/code/rahulrock123/normal-abnormal-classification-for-ecg-heartbeat",
+        "file":"heartbeat.csv",
+        "target":"target"
+    },
+    {
+        "id":21,
+        "name":"stress",
+        "sources":["https://www.kaggle.com/datasets/laavanya/human-stress-detection-in-and-through-sleep?select=SaYoPillow.csv"],
+        "edits":"no edits",
+        "file":"stress.csv",
+        "target":"sl",
+        "valid":"X"
+    },
+    {
+        "id":22,
+        "name":"fetalHealth",
+        "sources":["https://www.kaggle.com/datasets/andrewmvd/fetal-health-classification"],
+        "edits":"no edits",
+        "file":"fetal-health.csv",
+        "target":"fetal_health"
+    },
+    {
+        "id":23,
+        "name":"fetalCardio",
+        "sources":["https://www.kaggle.com/datasets/akshat0007/fetalhr?datasetId=596600"],
+        "edits":"edits as per: https://www.kaggle.com/code/akshat0007/fhr-tree-svm-ensemble",
+        "file":"fetal-cardio.csv",
+        "target":"NSP",
+        "valid":"repeated"
+    },
+    {
+        "id":24,
+        "name":"diabetes2019",
+        "sources":["https://www.kaggle.com/datasets/tigganeha4/diabetes-dataset-2019"],
+        "edits":"edits as per: https://www.kaggle.com/code/hadiaskari1981/knn-classifier",
+        "file":"diabetes-2019.csv",
+        "target":"Diabetic"
+    },
+    {
+        "id":25,
+        "name":"thoracic",
+        "sources":["https://www.kaggle.com/datasets/sid321axn/thoraric-surgery"],
+        "edits":"edits as per: https://www.kaggle.com/code/athiravalsan/thoraric-surgery-decision-tree",
+        "file":"thoracic.csv",
+        "target":"Risk1Yr"
+    },
+    {
+        "id":26,
+        "name":"preterm",
+        "sources":["https://www.kaggle.com/datasets/ahmadalijamali/preterm-data-set"],
+        "edits":"edits as per: https://www.kaggle.com/code/thedayoftheking/predictpreterm",
+        "file":"preterm.csv",
+        "target":"Pre-term",
+        "valid":"X"
+    },
+    {
+        "id":27,
+        "name":"arrhythmiaBinary",
+        "sources":["https://www.kaggle.com/datasets/sadmansakib7/ecg-arrhythmia-classification-dataset"],
+        "edits":"removed 'record', grouped all types of arrhythmia as 1 and normal as 0 in file MIT-BIH Arrhythmia Database.csv",
+        "file":"arrhythmia.csv",
+        "target":"type",
+        "valid":"repeated"
+    },
+    {
+        "id":28,
+        "name":"cervicalCancer",
+        "sources":["https://www.kaggle.com/datasets/loveall/cervical-cancer-risk-classification"],
+        "edits":"edits as per: https://www.kaggle.com/code/shivangmathur1/cervical-cancer-risk-classification",
+        "file":"cervical-cancer.csv",
+        "target":"Biopsy"
+    },
+    {
+        "id":29,
+        "name":"epilepsy",
+        "sources":["https://www.kaggle.com/datasets/harunshimanto/epileptic-seizure-recognition"],
+        "edits":"edits as per: https://www.kaggle.com/code/ayushksingh28/eeg-seizure-prediction-with-ml-algos",
+        "file":"epilepsy.csv",
+        "target":"y"
+    }
+
+]

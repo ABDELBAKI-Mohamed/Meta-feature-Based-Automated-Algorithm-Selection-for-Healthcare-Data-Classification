@@ -1,0 +1,76 @@
+[
+  {
+    "accuracy": 0.6955882352941176,
+    "best_params": {
+      "n_estimators": 295,
+      "learning_rate": 0.3095005930321805
+    },
+    "elapsed_time": 123,
+    "algorithm": "ADA"
+  },
+  {
+    "accuracy": 0.6970588235294117,
+    "best_params": {
+      "n_estimators": 448,
+      "learning_rate": 0.08965813606883093,
+      "max_depth": 15,
+      "min_samples_split": 0.5443150959438077,
+      "min_samples_leaf": 0.3758204763023807
+    },
+    "elapsed_time": 224,
+    "algorithm": "GBM"
+  },
+  {
+    "accuracy": 0.6477941176470589,
+    "best_params": {
+      "n_neighbors": 21,
+      "weights": "distance",
+      "p": 1
+    },
+    "elapsed_time": 6,
+    "algorithm": "KNN"
+  },
+  {
+    "accuracy": 0.38088235294117645,
+    "best_params": {
+      "penalty": "l2",
+      "C": 5.112869077683093,
+      "max_iter": 200
+    },
+    "elapsed_time": 29,
+    "algorithm": "LR"
+  },
+  {
+    "accuracy": 0.24338235294117644,
+    "best_params": "does not use hyperparameters",
+    "elapsed_time": 0,
+    "algorithm": "NB"
+  },
+  {
+    "accuracy": 0.7220588235294118,
+    "best_params": {
+      "n_estimators": 10,
+      "max_depth": 22
+    },
+    "elapsed_time": 13,
+    "algorithm": "RF"
+  },
+  {
+    "accuracy": 0.7220588235294118,
+    "best_params": {
+      "n_estimators": 12,
+      "max_depth": 13
+    },
+    "elapsed_time": 122,
+    "algorithm": "RF"
+  },
+  {
+    "accuracy": 0.7220588235294118,
+    "best_params": {
+      "n_estimators": 10,
+      "max_depth": 11
+    },
+    "elapsed_time": 122,
+    "algorithm": "RF"
+  }
+]

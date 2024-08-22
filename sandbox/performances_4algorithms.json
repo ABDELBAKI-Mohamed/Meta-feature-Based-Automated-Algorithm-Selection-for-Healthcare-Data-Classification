@@ -1,0 +1,58 @@
+[
+  {
+    "accuracy": 0.6068235294117648,
+    "best_params": {
+      "n_estimators": 151,
+      "learning_rate": 0.009803937993613194
+    },
+    "elapsed_time": 119,
+    "algorithm": "ADA"
+  },
+  {
+    "accuracy": 0.6467450980392158,
+    "best_params": {
+      "n_estimators": 284,
+      "learning_rate": 0.01599585400624678,
+      "max_depth": 13,
+      "min_samples_split": 0.28372084619832116,
+      "min_samples_leaf": 0.21526042970786657
+    },
+    "elapsed_time": 375,
+    "algorithm": "GBM"
+  },
+  {
+    "accuracy": 0.5592941176470588,
+    "best_params": {
+      "n_neighbors": 27,
+      "weights": "distance",
+      "p": 1
+    },
+    "elapsed_time": 5,
+    "algorithm": "KNN"
+  },
+  {
+    "accuracy": 0.42525490196078425,
+    "best_params": {
+      "penalty": "l1",
+      "C": 26.685683663277242,
+      "max_iter": 119
+    },
+    "elapsed_time": 67,
+    "algorithm": "LR"
+  },
+  {
+    "accuracy": 0.21819607843137256,
+    "best_params": "does not use hyperparameters",
+    "elapsed_time": 0,
+    "algorithm": "NB"
+  },
+  {
+    "accuracy": 0.6265098039215686,
+    "best_params": {
+      "n_estimators": 34,
+      "max_depth": 12
+    },
+    "elapsed_time": 14,
+    "algorithm": "RF"
+  }
+]
